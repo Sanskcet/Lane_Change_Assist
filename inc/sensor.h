@@ -16,7 +16,6 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <stdbool.h>
-#include <util/delay.h>
 
 //User defined data type for Ultrasonic sensor
 typedef struct{
