@@ -18,17 +18,20 @@
 #include <stdbool.h>
 #include <util/delay.h>
 
+//User defined data type for Ultrasonic sensor
 typedef struct{
     char Trig_Port;
     char Echo_Port;
-    uint8_t Trig_pin;
-    uint8_t Echo_pin;
+    uint8_t Trig_pin:4; //since atmega328 has maximum 7 pins on each port, 7 can be represented as 0111 in binary and hence 3 bits are sufficient. 
+    uint8_t Echo_pin:4;
 }Ultrasonic;
 
+
 int init_Ultrasonic_Sensor( Ultrasonic );
-double get_Range( Ultrasonic );
+uint16_t get_Range( Ultrasonic );
 int create_delay_for_Ultrasonic_Sensor ( void );
 int Trigger ( Ultrasonic );
 uint16_t Echo_Time( void );
 int set_Interrupts( Ultrasonic );
+
 #endif

@@ -4,7 +4,8 @@ BUILD_DIR=BUILD
 
 SRC=src/main.c\
 src/sensor.c\
-
+src/uart.c\
+src/debug.c\
 
 TEST_SRC=test/test_sensor.c\
 unity/unity.c\
