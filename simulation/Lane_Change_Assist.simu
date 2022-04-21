@@ -2,27 +2,27 @@
 
 Unique  Id: TextComponent-542: 
 Circuit Id: TextComponent-542
-<item y="-444" Text="Right Indicator Switch" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" Fixed_Width="false" Border="1" rotation="0" itemtype="TextComponent" Opacity="1" circRot="nan" Font_Size="10" hflip="1" x="-784" valLabelx="0" labelrot="0" id="TextComponent-542" circPos="0,0" labely="-24" Font="Helvetica [Cronyx]" objectName="TextComponent-542" boardRot="-1000000" Margin="5" valLabely="0" mainComp="false" labelx="-16"/>
+<item y="-448" Text="Right Indicator Switch" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" Fixed_Width="false" Border="1" rotation="0" itemtype="TextComponent" Opacity="1" circRot="nan" Font_Size="10" hflip="1" x="-972" valLabelx="0" labelrot="0" id="TextComponent-542" circPos="0,0" labely="-24" Font="Helvetica [Cronyx]" objectName="TextComponent-542" boardRot="-1000000" Margin="5" valLabely="0" mainComp="false" labelx="-16"/>
 
 Unique  Id: TextComponent-537: 
 Circuit Id: TextComponent-537
-<item y="-568" Text="Left Indicator Switch" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" Fixed_Width="false" Border="1" rotation="0" itemtype="TextComponent" Opacity="1" circRot="nan" Font_Size="10" hflip="1" x="-776" valLabelx="0" labelrot="0" id="TextComponent-537" circPos="0,0" labely="-24" Font="Helvetica [Cronyx]" objectName="TextComponent-537" boardRot="-1000000" Margin="5" valLabely="0" mainComp="false" labelx="-16"/>
+<item y="-576" Text="Left Indicator Switch" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" Fixed_Width="false" Border="1" rotation="0" itemtype="TextComponent" Opacity="1" circRot="nan" Font_Size="10" hflip="1" x="-956" valLabelx="0" labelrot="0" id="TextComponent-537" circPos="0,0" labely="-24" Font="Helvetica [Cronyx]" objectName="TextComponent-537" boardRot="-1000000" Margin="5" valLabely="0" mainComp="false" labelx="-16"/>
 
 Unique  Id: Node-535: 
 Circuit Id: Node-535
-<item y="-484" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Node" circRot="-5.820934007414311e+303" hflip="1" x="-748" valLabelx="0" labelrot="0" id="Node-535" circPos="0,0" labely="-24" objectName="Node-535" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
+<item y="-488" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Node" circRot="-5.820934007414311e+303" hflip="1" x="-940" valLabelx="0" labelrot="0" id="Node-535" circPos="0,0" labely="-24" objectName="Node-535" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
 
 Unique  Id: Switch-531: 
 Circuit Id: Switch-531
-<item Norm_Close="false" y="-484" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Switch" circRot="8.0658927442121038e-308" DT="false" hflip="1" x="-712" Poles="1" valLabelx="0" labelrot="0" id="Switch-531" circPos="0,0" labely="-24" objectName="Switch-531" boardRot="-1000000" Key="" valLabely="0" mainComp="false" labelx="-16"/>
+<item Norm_Close="false" y="-488" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Switch" circRot="8.0658927442121038e-308" DT="false" hflip="1" x="-904" Poles="1" valLabelx="0" labelrot="0" id="Switch-531" circPos="0,0" labely="-24" objectName="Switch-531" boardRot="-1000000" Key="" valLabely="0" mainComp="false" labelx="-16"/>
 
 Unique  Id: Switch-529: 
 Circuit Id: Switch-529
-<item Norm_Close="false" y="-526" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Switch" circRot="7.5660456058569503e-307" DT="false" hflip="1" x="-707" Poles="1" valLabelx="0" labelrot="0" id="Switch-529" circPos="0,0" labely="-24" objectName="Switch-529" boardRot="-1000000" Key="" valLabely="0" mainComp="false" labelx="-16"/>
+<item Norm_Close="false" y="-530" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Switch" circRot="7.5660456058569503e-307" DT="false" hflip="1" x="-899" Poles="1" valLabelx="0" labelrot="0" id="Switch-529" circPos="0,0" labely="-24" objectName="Switch-529" boardRot="-1000000" Key="" valLabely="0" mainComp="false" labelx="-16"/>
 
 Unique  Id: Ground-528: 
 Circuit Id: Ground-528
-<item y="-460" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Ground" circRot="-5.4861292803319049e+303" hflip="1" x="-776" valLabelx="0" labelrot="0" id="Ground-528" circPos="0,0" labely="8" objectName="Ground-528" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
+<item y="-464" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Ground" circRot="-5.4861292803319049e+303" hflip="1" x="-968" valLabelx="0" labelrot="0" id="Ground-528" circPos="0,0" labely="8" objectName="Ground-528" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
 
 Unique  Id: TextComponent-518: 
 Circuit Id: TextComponent-518
@@ -104,25 +104,17 @@ Unique  Id: Connector-513:
 Circuit Id: Connector-513
 <item y="-620" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-668,-620,-668,-584,-516,-584,-516,-528,-548,-528" circRot="0" endpinid="atmega328-362-PC2" hflip="1" x="-668" valLabelx="0" labelrot="0" id="Connector-513" circPos="0,0" enodeid="Circ_eNode-516" labely="-24" objectName="Connector-513" startpinid="SR04-506-outpin" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
 
-Unique  Id: Connector-530: 
-Circuit Id: Connector-530
-<item y="-527" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-692,-527,-596,-527,-596,-528" circRot="0" endpinid="atmega328-362-PD2" hflip="1" x="-692" valLabelx="0" labelrot="0" id="Connector-530" circPos="0,0" enodeid="enode-530" labely="-24" objectName="Connector-530" startpinid="Switch-529-switch0pinN" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
-
-Unique  Id: Connector-532: 
-Circuit Id: Connector-532
-<item y="-484" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-696,-484,-668,-484,-668,-520,-596,-520" circRot="0" endpinid="atmega328-362-PD3" hflip="1" x="-696" valLabelx="0" labelrot="0" id="Connector-532" circPos="0,0" enodeid="enode-532" labely="-24" objectName="Connector-532" startpinid="Switch-531-switch0pinN" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
-
 Unique  Id: Connector-533: 
 Circuit Id: Connector-533
-<item y="-527" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-724,-527,-748,-527,-748,-484" circRot="0" endpinid="Node-535-0" hflip="1" x="-724" valLabelx="0" labelrot="0" id="Connector-533" circPos="0,0" enodeid="enode-534" labely="-24" objectName="Connector-533" startpinid="Switch-529-pinP0" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
+<item y="-531" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-916,-531,-940,-531,-940,-488" circRot="0" endpinid="Node-535-0" hflip="1" x="-916" valLabelx="0" labelrot="0" id="Connector-533" circPos="0,0" enodeid="enode-534" labely="-24" objectName="Connector-533" startpinid="Switch-529-pinP0" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
 
 Unique  Id: Connector-534: 
 Circuit Id: Connector-534
-<item y="-476" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-776,-476,-776,-484,-748,-484" circRot="0" endpinid="Node-535-1" hflip="1" x="-776" valLabelx="0" labelrot="0" id="Connector-534" circPos="0,0" enodeid="enode-534" labely="-24" objectName="Connector-534" startpinid="Ground-528-Gnd" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
+<item y="-480" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-968,-480,-968,-488,-940,-488" circRot="0" endpinid="Node-535-1" hflip="1" x="-968" valLabelx="0" labelrot="0" id="Connector-534" circPos="0,0" enodeid="enode-534" labely="-24" objectName="Connector-534" startpinid="Ground-528-Gnd" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
 
 Unique  Id: Connector-536: 
 Circuit Id: Connector-536
-<item y="-484" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-748,-484,-728,-484" circRot="0" endpinid="Switch-531-pinP0" hflip="1" x="-748" valLabelx="0" labelrot="0" id="Connector-536" circPos="0,0" enodeid="enode-534" labely="-24" objectName="Connector-536" startpinid="Node-535-2" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
+<item y="-488" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-940,-488,-920,-488" circRot="0" endpinid="Switch-531-pinP0" hflip="1" x="-940" valLabelx="0" labelrot="0" id="Connector-536" circPos="0,0" enodeid="enode-534" labely="-24" objectName="Connector-536" startpinid="Node-535-2" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
 
 Unique  Id: Connector-377: 
 Circuit Id: Connector-377
@@ -131,5 +123,13 @@ Circuit Id: Connector-377
 Unique  Id: Connector-373: 
 Circuit Id: Connector-373
 <item y="-368" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-628,-368,-628,-448,-596,-448" circRot="0" endpinid="atmega328-362-PB0" hflip="1" x="-628" valLabelx="0" labelrot="0" id="Connector-373" circPos="0,0" enodeid="enode-373" labely="-24" objectName="Connector-373" startpinid="Led-372-lPin" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
+
+Unique  Id: Connector-530: 
+Circuit Id: Connector-530
+<item y="-530" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-883,-530,-883,-530,-884,-531,-596,-531,-596,-528" circRot="0" endpinid="atmega328-362-PD2" hflip="1" x="-883" valLabelx="0" labelrot="0" id="Connector-530" circPos="0,0" enodeid="enode-530" labely="-24" objectName="Connector-530" startpinid="Switch-529-switch0pinN" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
+
+Unique  Id: Connector-532: 
+Circuit Id: Connector-532
+<item y="-488" vflip="1" Show_id="false" valLabRot="0" boardPos="-1e+06,-1e+06" rotation="0" itemtype="Connector" pointList="-888,-488,-860,-488,-860,-520,-596,-520" circRot="0" endpinid="atmega328-362-PD3" hflip="1" x="-888" valLabelx="0" labelrot="0" id="Connector-532" circPos="0,0" enodeid="enode-532" labely="-24" objectName="Connector-532" startpinid="Switch-531-switch0pinN" boardRot="-1000000" valLabely="0" mainComp="false" labelx="-16"/>
  
 </circuit>
