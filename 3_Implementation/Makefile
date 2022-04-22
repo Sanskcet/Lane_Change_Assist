@@ -23,7 +23,7 @@ INCLUDE_LIBS = -lcunit
 
 ifdef OS 
 
-	RM=del /q
+	RM=del /q /s
 	FixPath=$(subst /,\,$1)
 
 	CC=avr-gcc.exe
@@ -73,10 +73,16 @@ test: $(BUILD_DIR)
 	./$(TEST_OUTPUT)
 	
 doc:
-
 	make -C documentation
 
 clean: 
 	$(RM) BUILD
-	make -C documentation clean
 	rmdir $(BUILD_DIR)
+
+clean_doc:
+	$(RM) $(call FixPath,documentation/html/)
+	$(RM) $(call FixPath,documentation/html/search)
+	$(RM) $(call FixPath,documentation/latex/)
+	rmdir $(call FixPath,documentation/html/search)
+	rmdir $(call FixPath,documentation/html/)
+	rmdir $(call FixPath,documentation/latex/)

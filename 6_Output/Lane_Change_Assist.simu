@@ -1,5 +1,9 @@
 <circuit type="simulide_0.4" noLinAcc="5" Speed_sps="1000000" animate="0" reactStep="50" Speed_per="100" Simu_Step_nS="1000">
 
+Unique  Id: Node-597: 
+Circuit Id: Node-597
+<item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="nan" x="-460" itemtype="Node" circPos="0,0" objectName="Node-597" Show_id="false" labelrot="0" y="-512" id="Node-597" valLabRot="0" boardPos="-1e+06,-1e+06"/>
+
 Unique  Id: TextComponent-542: 
 Circuit Id: TextComponent-542
 <item Font="Helvetica [Cronyx]" vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="nan" Margin="5" x="-972" itemtype="TextComponent" Opacity="1" Text="Right Indicator Switch" Font_Size="10" circPos="0,0" objectName="TextComponent-542" Border="1" Show_id="false" labelrot="0" Fixed_Width="false" y="-448" id="TextComponent-542" valLabRot="0" boardPos="-1e+06,-1e+06"/>
@@ -68,10 +72,6 @@ Unique  Id: Node-570:
 Circuit Id: Node-570
 <item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="nan" x="-380" itemtype="Node" circPos="0,0" objectName="Node-570" Show_id="false" labelrot="0" y="-520" id="Node-570" valLabRot="0" boardPos="-1e+06,-1e+06"/>
 
-Unique  Id: SerialTerm-574: 
-Circuit Id: SerialTerm-574
-<item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" Mcu_Id="atmega328-558" hflip="1" labely="-24" valLabelx="0" mainComp="false" posx="463" sizey="249" rotation="0" circRot="0" x="-548" itemtype="SerialTerm" circPos="0,0" objectName="SerialTerm-574" sizex="516" Show_id="false" labelrot="0" y="-544" Mcu_Uart="1" id="SerialTerm-574" valLabRot="0" boardPos="-1e+06,-1e+06" posy="457"/>
-
 Unique  Id: Connector-375: 
 Circuit Id: Connector-375
 <item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="0" enodeid="Circ_eNode-575" x="-692" itemtype="Connector" circPos="0,0" objectName="Connector-375" endpinid="Led-372-rPin" Show_id="false" pointList="-692,-368,-660,-368" labelrot="0" y="-368" id="Connector-375" valLabRot="0" boardPos="-1e+06,-1e+06" startpinid="Resistor-374-rPin"/>
@@ -120,10 +120,6 @@ Unique  Id: Connector-565:
 Circuit Id: Connector-565
 <item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="0" enodeid="Circ_eNode-584" x="-676" itemtype="Connector" circPos="0,0" objectName="Connector-565" endpinid="atmega328-558-PD5" Show_id="false" pointList="-676,-620,-676,-456,-556,-456" labelrot="0" y="-620" id="Connector-565" valLabRot="0" boardPos="-1e+06,-1e+06" startpinid="SR04-506-trigpin"/>
 
-Unique  Id: Connector-566: 
-Circuit Id: Connector-566
-<item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="0" enodeid="Circ_eNode-585" x="-668" itemtype="Connector" circPos="0,0" objectName="Connector-566" endpinid="atmega328-558-PC2" Show_id="false" pointList="-668,-620,-668,-572,-460,-572,-460,-512,-508,-512" labelrot="0" y="-620" id="Connector-566" valLabRot="0" boardPos="-1e+06,-1e+06" startpinid="SR04-506-outpin"/>
-
 Unique  Id: Connector-568: 
 Circuit Id: Connector-568
 <item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="0" enodeid="Circ_eNode-586" x="-388" itemtype="Connector" circPos="0,0" objectName="Connector-568" endpinid="atmega328-558-PC0" Show_id="false" pointList="-388,-620,-388,-496,-508,-496" labelrot="0" y="-620" id="Connector-568" valLabRot="0" boardPos="-1e+06,-1e+06" startpinid="SR04-363-trigpin"/>
@@ -135,5 +131,17 @@ Circuit Id: Connector-569
 Unique  Id: Connector-571: 
 Circuit Id: Connector-571
 <item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="0" enodeid="Circ_eNode-580" x="-380" itemtype="Connector" circPos="0,0" objectName="Connector-571" endpinid="LAnalizer-418-Pin0" Show_id="false" pointList="-380,-520,-444,-520,-444,-456" labelrot="0" y="-520" id="Connector-571" valLabRot="0" boardPos="-1e+06,-1e+06" startpinid="Node-570-2"/>
+
+Unique  Id: Connector-566: 
+Circuit Id: Connector-566
+<item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="0" enodeid="enode-596" x="-668" itemtype="Connector" circPos="0,0" objectName="Connector-566" endpinid="Node-597-0" Show_id="false" pointList="-668,-620,-668,-572,-460,-572,-460,-512" labelrot="0" y="-620" id="Connector-566" valLabRot="0" boardPos="-1e+06,-1e+06" startpinid="SR04-506-outpin"/>
+
+Unique  Id: Connector-596: 
+Circuit Id: Connector-596
+<item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="0" enodeid="enode-596" x="-446" itemtype="Connector" circPos="0,0" objectName="Connector-596" endpinid="Node-597-1" Show_id="false" pointList="-446,-423,-446,-424,-460,-424,-460,-512" labelrot="0" y="-423" id="Connector-596" valLabRot="0" boardPos="-1e+06,-1e+06" startpinid="LAnalizer-418-Pin2"/>
+
+Unique  Id: Connector-598: 
+Circuit Id: Connector-598
+<item vflip="1" valLabely="0" boardRot="-1000000" labelx="-16" hflip="1" labely="-24" valLabelx="0" mainComp="false" rotation="0" circRot="0" enodeid="enode-596" x="-460" itemtype="Connector" circPos="0,0" objectName="Connector-598" endpinid="atmega328-558-PC2" Show_id="false" pointList="-460,-512,-508,-512" labelrot="0" y="-512" id="Connector-598" valLabRot="0" boardPos="-1e+06,-1e+06" startpinid="Node-597-2"/>
  
 </circuit>

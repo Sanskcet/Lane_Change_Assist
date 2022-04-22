@@ -1,5 +1,2 @@
 build:
 	doxygen Doxyfile
-
-clean:
-	

@@ -53,7 +53,12 @@ int init_Ultrasonic_Sensor( Ultrasonic S){
     return 0;
 }
 
-
+/**
+ * @brief This function sets the requirred interrupts and initialises the timer2 
+ * 
+ * @param S 
+ * @return int 
+ */
 
 int set_Interrupts ( Ultrasonic S ){
 
@@ -75,11 +80,21 @@ int set_Interrupts ( Ultrasonic S ){
     TIMSK2 = ( 1 << TOIE2 );
     return 0;
 }
-
+/**
+ * @brief This Functions returns the ticks taken by the timer between the pulse width
+ * 
+ * @return uint16_t 
+ */
 uint16_t Echo_Time( void ){ //Return the Pulse width of the Echo in terms of timer count and overflow
     return ticks + ( 255 * Timer_Overflow );
 }
 
+/**
+ * @brief This function is to trigger the ultrasonic sensor
+ * 
+ * @param S 
+ * @return int 
+ */
 int Trigger ( Ultrasonic S){
 
     switch ( S.Trig_Port ){ //Check the Trigger Port
@@ -105,6 +120,12 @@ int Trigger ( Ultrasonic S){
 
     return 0;
 }
+
+/**
+ * @brief Create the required delay for Ultrasonic Sensor 
+ * 
+ * @return int 
+ */
 int create_delay_for_Ultrasonic_Sensor ( void ){
     TCNT0 = 0; //Initialize the Timer zero counter to zero
     OCR0A = 159; //Initialize the Compare register to 159 => 10us delay using no prescalar
@@ -114,6 +135,12 @@ int create_delay_for_Ultrasonic_Sensor ( void ){
     return 0;
 }
 
+/**
+ * @brief This function returns the range or the distance of the sensor from the obstacle
+ * 
+ * @param S 
+ * @return uint16_t 
+ */
 uint16_t get_Range( Ultrasonic S ){
     uint16_t range = 0;
     Timer_Overflow = 0;
@@ -126,6 +153,7 @@ uint16_t get_Range( Ultrasonic S ){
     //debug_using_uart(range,Timer_Overflow,ticks); //clear the comment to enable debugging using uart. 
     return range;
 }
+
 
 ISR ( PCINT1_vect ){ //ISR for pin level change interrupt on port C
     cli(); //clear global Interrupts
